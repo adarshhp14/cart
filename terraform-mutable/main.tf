@@ -6,6 +6,7 @@ module "cart" {
   OD_INSTANCE_COUNT   = var.OD_INSTANCE_COUNT
   COMPONENT           = "cart"
   PORT                = 8080
+  IS_PRIVATE_LB       = true
 }
 
 output "INSTANCE_IDS" {
