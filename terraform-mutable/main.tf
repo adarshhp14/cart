@@ -4,7 +4,7 @@ module "cart" {
   ENV                 = var.ENV
   SPOT_INSTANCE_COUNT = var.SPOT_INSTANCE_COUNT
   OD_INSTANCE_COUNT   = var.OD_INSTANCE_COUNT
-
+  COMPONENT           = "cart"
 }
 
 output "INSTANCE_IDS" {
