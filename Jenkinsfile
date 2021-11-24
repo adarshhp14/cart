@@ -8,8 +8,8 @@ pipeline {
       steps {
         // log.info 'Starting'
         script {
-          log.info 'Starting'
-          log.warning 'Nothing to do!'
+          nodejs.info 'Starting'
+          nodejs.warning 'Nothing to do!'
         }
       }
     }
