@@ -2,3 +2,4 @@
 
 env.EX_COMP="cart"
 nodejs("cart")
+
